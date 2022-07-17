@@ -98,7 +98,7 @@ class Main:
 		
 		print ("""\033[1;92m   
 
-                            ____               _    _            _______ 
+  ____               _    _            _______ 
  |  _ \             | |  | |          |__   __|
  | |_) |_____ ______| |__| |______ ______| |   
  |  _ <______|______|  __  |______|______| |   
@@ -438,7 +438,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [R140N_OLD] : %s/%s -> \033[0;92m [ R140N-OK:%s ]- \033[0;91m[R140N-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [𝐁𝐇𝐓_𝐎𝐋𝐃] : %s/%s -> \033[0;92m [ 𝐁𝐇𝐓-𝐎𝐊:%s ]- \033[0;91m[𝐁𝐇𝐓-𝐂𝐏:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
